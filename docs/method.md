@@ -51,3 +51,8 @@ absolute coordinate and velocity differences in the serialized snapshots,
 which use eight fractional digits in scientific notation. It also checks
 finiteness and compares final collision counts. The local 100-step runs are
 a separate numerical check and do not contribute to the runtime medians.
+
+## Acknowledgement
+
+The historical optimisation study used the Cirrus HPC service at EPCC.
+[Cirrus service documentation](https://docs.cirrus.ac.uk/user-guide/introduction/#acknowledging-cirrus)
