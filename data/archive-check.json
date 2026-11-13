@@ -1,0 +1,13 @@
+{
+  "source": "Original Performance Programming submission archive, 2024\u201325",
+  "finite_files_checked": 6,
+  "rows_per_file": 4096,
+  "fields_per_row": 9,
+  "step_100_matches_saved_reference_byte_for_byte": true,
+  "saved_input_matches_supplied_input_byte_for_byte": true,
+  "unchanged_starter_source_files": [
+    "control.c",
+    "coord.h"
+  ],
+  "same_step_reference_available_after_step_100": false
+}

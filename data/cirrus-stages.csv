@@ -1,0 +1,7 @@
+stage,seconds
+Baseline (-O0),705.92
+Compiler optimisation (-O3 -ipo),96.49
+Manual optimisation and loop fusion,58.10
+Tiling and aliasing changes,32.96
+Further arithmetic and aliasing changes,22.02
+Exploratory fast-math and host flags,18.31

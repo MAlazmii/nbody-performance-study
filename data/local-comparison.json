@@ -1,0 +1,68 @@
+{
+  "run_date": "2026-11-13",
+  "machine": "MacBook Air (MacBookAir10,1), Apple M1",
+  "os": "macOS 26.6.2",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+  "flags": [
+    "-std=gnu17",
+    "-O3",
+    "-ffp-contract=off"
+  ],
+  "threads": 1,
+  "particles": 4096,
+  "steps_per_sample": 20,
+  "warmups_per_variant": 1,
+  "sample_order": "Alternating order by pair, supplied first in pairs 1, 3 and 5",
+  "timed_region": "One evolve call, before writing the output snapshot",
+  "seconds": {
+    "supplied": [
+      15.822714,
+      12.027491,
+      14.043389,
+      13.322962,
+      12.280309
+    ],
+    "submitted": [
+      0.780901,
+      0.784567,
+      0.762595,
+      0.771771,
+      0.909891
+    ]
+  },
+  "median_seconds": {
+    "supplied": 13.322962,
+    "submitted": 0.780901
+  },
+  "median_ratio_supplied_over_submitted": 17.061012855662884,
+  "step_20": {
+    "byte_identical": true,
+    "rows": 4096,
+    "max_abs_position_difference": 0.0,
+    "max_abs_velocity_difference": 0.0,
+    "collisions": {
+      "supplied": 0,
+      "submitted": 0
+    },
+    "repeat_output_byte_identical_within_variant": true
+  },
+  "step_100": {
+    "byte_identical": true,
+    "rows": 4096,
+    "max_abs_position_difference": 0.0,
+    "max_abs_velocity_difference": 0.0,
+    "collisions": {
+      "supplied": 0,
+      "submitted": 0
+    },
+    "matches_archived_step_100_reference_byte_for_byte": {
+      "supplied": true,
+      "submitted": true
+    }
+  },
+  "archive_sha256": {
+    "supplied": "eb96f41e5dd9713c46625690d49b26bbccb0e930acd6d984101d6367fe8669e9",
+    "submitted": "77cae3ff59aa69c38f9d758ea0e27dff7bbd033532e88d3f6fa09514ae93c633"
+  },
+  "process_note": "Each sample used a fresh process and one evolve call. Preliminary runs were excluded."
+}
